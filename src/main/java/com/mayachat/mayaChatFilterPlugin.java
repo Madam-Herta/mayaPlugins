@@ -132,8 +132,8 @@ public class mayaChatFilterPlugin extends Plugin
 		if (!hasShownStartupWarning) {
 			SwingUtilities.invokeLater(() -> {
 				int result = JOptionPane.showConfirmDialog(null,
-						"Warning: Enabling the Maya's Chat Filter will permanently overwrite your existing chat filter settings and any changes made while the plugin is on will be lost. " +
-								"\nSupport available at discord xD ",
+						"Warning: Enabling the Maya's Chat Filter will permanently overwrite your existing chat filter  " +
+								"\nsettings and any changes made while the plugin is on will be lost.",
 						"Chat Filter Warning",
 						JOptionPane.OK_CANCEL_OPTION,
 						JOptionPane.WARNING_MESSAGE);
